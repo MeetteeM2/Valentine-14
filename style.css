@@ -1,0 +1,52 @@
+body {
+    background-color: #ffd1dc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff4d6d;
+}
+
+.character {
+    width: 150px;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff85a2;
+    color: white;
+}
+
+#yesBtn:hover {
+    background-color: #ff4d6d;
+}
+
+#noBtn {
+    background-color: #bbbbbb;
+    color: white;
+    position: absolute;
+}
+
+#noBtn:hover {
+    cursor: not-allowed;
+}
