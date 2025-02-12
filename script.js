@@ -10,12 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     yesBtn.addEventListener("click", function() {
-        document.body.innerHTML = `
-             <div class="container">
-            <h1>Yay! I love you Dudu! 💖</h1>
-             <img src="bubu-dudu.jpg" alt="Dudu happy" class="character">
-            </div>
-        `;
+        document.body.innerHTML = 
+            "<div class='container'>" +
+                "<h1>Yay! I love you Dev! 💖</h1>" +
+                "<img src='bubu-dudu.jpg' alt='Dudu happy' class='character'>" +
+            "</div>";
     });
 
     function createHeart() {
